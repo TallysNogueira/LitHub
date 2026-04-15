@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="matr_cula_ou_senha_incorreta_tente_novamente">Matrícula ou senha incorreta, tente novamente</string>
+    <string name="inserir_senha">Inserir senha</string>
+    <string name="lit_hub">LIT HUB</string>
+    <string name="matr_cula">Matrícula</string>
+    <string name="senha">Senha</string>
+    <string name="inserir_matr_cula">Inserir matrícula</string>
+    <string name="esqueci_minha_senha">Esqueci minha senha</string>
+    <string name="login">Login</string>
+</resources>

@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/drawable_bg_input.xml.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/drawable/bg_input.xml"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/layout_activity_chat_conversation.xml.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/layout/activity_chat_conversation.xml"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/drawable_unifor_logo.png.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/drawable/unifor_logo.png"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/drawable_bg_message_sent.xml.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/drawable/bg_message_sent.xml"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/drawable_bg_chip_outline.xml.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/drawable/bg_chip_outline.xml"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/layout_item_chat_history.xml.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/layout/item_chat_history.xml"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/drawable_lithub_logo.jpg.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/drawable/lithub_logo.jpg"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/drawable_rounded_shape_2.xml.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/drawable/rounded_shape_2.xml"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/layout_activity_chat_history.xml.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/layout/activity_chat_history.xml"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/drawable_rounded_shape_1.xml.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/drawable/rounded_shape_1.xml"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/drawable_bg_button.xml.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/drawable/bg_button.xml"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/layout_activity_home.xml.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.lithub.app-debug-32:/layout_activity_notifications.xml.flat",
+        "source": "com.lithub.app-main-34:/layout/activity_notifications.xml"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/layout_activity_login.xml.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/layout_item_message_received.xml.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/layout/item_message_received.xml"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/menu_menu_bottom.xml.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/menu/menu_bottom.xml"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/layout_item_message_sent.xml.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/layout/item_message_sent.xml"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/drawable_bg_message_received.xml.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/drawable/bg_message_received.xml"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/layout_activity_notifications.xml.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/layout/activity_notifications.xml"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/layout_activity_recover_password.xml.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/layout/activity_recover_password.xml"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/drawable_bg_input_error.xml.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/drawable/bg_input_error.xml"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/font_montserrat_light.xml.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/font/montserrat_light.xml"
+    },
+    {
+        "merged": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-debug-32:/font_montserrat_bold.xml.flat",
+        "source": "/home/wired/.gradle/daemon/9.0.0/com.lithub.app-main-34:/font/montserrat_bold.xml"
+    }
+]

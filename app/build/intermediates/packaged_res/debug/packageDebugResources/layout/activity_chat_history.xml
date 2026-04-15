@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg_light"><LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical"><LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:orientation="vertical" android:padding="20dp"><LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:gravity="center_vertical"><ImageView android:layout_width="40dp" android:layout_height="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/montserrat_light"
+        android:text="LIT HUB"
+        android:textColor="@color/primary"
+        android:textSize="22sp"
+        android:textStyle="bold" /></LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/rounded_shape_1"
+        android:fontFamily="@font/montserrat_light"
+        android:hint="Pesquisar perfil de usuário..."
+        android:paddingHorizontal="16dp"
+        android:textColor="#767A7E"
+        android:textColorHint="#000000" /><androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerChats" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_marginTop="12dp"/></LinearLayout><com.google.android.material.bottomnavigation.BottomNavigationView android:id="@+id/bottomNav" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@color/primary" app:itemIconTint="@color/white" app:itemTextColor="@color/white" app:menu="@menu/menu_bottom"/></LinearLayout><com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@+id/fabChat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20dp" android:contentDescription="Novo chat" android:src="@android:drawable/ic_dialog_email" app:backgroundTint="@color/primary" app:layout_anchorGravity="bottom|end"/></androidx.coordinatorlayout.widget.CoordinatorLayout>

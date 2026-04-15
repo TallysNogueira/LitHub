@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:allowBackup="true"
+        android:label="LIT HUB"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LitHub">
+        <activity android:name=".NotificationsActivity" />
+        <activity android:name=".ChatConversationActivity" />
+        <activity android:name=".ChatHistoryActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RecoverPasswordActivity" />
+        <activity android:name=".LoginActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+</manifest>

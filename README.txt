@@ -1,0 +1,1 @@
+Projeto completo inicial LIT HUB com Login, Recuperação, Início, Histórico de Chat, Conversa e Notificações. Inclui logo do usuário em drawable/lithub_logo.jpg (renomeada pelo build como lithub_logo). Abra no Android Studio e sincronize o Gradle. Usuário de teste: matrícula 20231015 e senha 123456. Email válido: usuario@lithub.com
