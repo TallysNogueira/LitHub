@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="LIT HUB"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LitHub">
+
+        <activity
+            android:name=".AdminGameDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BooksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GamesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.LitHub" />
+        <activity android:name=".NotificationsActivity" />
+        <activity android:name=".ChatConversationActivity" />
+        <activity android:name=".ChatHistoryActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".BookEndChapterActivity" />
+        <activity android:name=".BookReadingActivity" />
+        <activity android:name=".BookChaptersActivity" />
+        <activity android:name=".BookSimilarActivity" />
+        <activity android:name=".BookReviewsActivity" />
+        <activity android:name=".BookDetailsActivity" />
+        <activity android:name=".ProfilePhotoActivity" />
+        <activity android:name=".MyBooksActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".RecoverPasswordActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".AdminHomeActivity" />
+        <activity android:name=".AdminStudentsActivity" />
+        <activity android:name=".AdminStudentProfileActivity" />
+        <activity android:name=".AdminReadBooksActivity" />
+        <activity android:name=".AdminBookDetailActivity" />
+        <activity android:name=".AdminRequestActivity" />
+        <activity android:name=".AdminRecordsActivity" />
+    </application>
+
+</manifest>

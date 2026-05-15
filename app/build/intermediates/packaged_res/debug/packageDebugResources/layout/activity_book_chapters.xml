@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg_light"><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingVertical="8dp">
+
+        <!-- Botão voltar -->
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/back_btn"
+            android:tint="@color/primary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <!-- Título centralizado -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+
+            android:text="Capítulos do Livro"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="A Bússola Perdida"
+        android:textColor="@color/gray_medium"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnChapter1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#014BF7"
+        android:fontFamily="@font/montserrat_bold"
+        android:includeFontPadding="false"
+        android:text="Capítulo 1 - O Encontro - pg. 1-15"
+        android:textAllCaps="false"
+        android:textColor="@color/bg_light" />
+
+    <Button
+        android:id="@+id/btnChapter2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#014BF7"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Capítulo 2 - Segredos Antigos - pg. 16-30"
+        android:textAllCaps="false"
+        android:textColor="@color/bg_light" />
+
+    <Button
+        android:id="@+id/btnChapter3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#014BF7"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Capítulo 3 - A Jornada Começa - pg. 31-45"
+        android:textAllCaps="false"
+        android:textColor="@color/bg_light" />
+
+    <Button
+        android:id="@+id/btnChapter4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#014BF7"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Capítulo 4 - Perigos e Novas Alianças - pg. 46-60"
+        android:textAllCaps="false"
+        android:textColor="@color/bg_light" /></LinearLayout></ScrollView>

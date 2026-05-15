@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg_light"><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="8dp">
+
+        <!-- Botão voltar -->
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/back_btn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="8dp"
+            app:tint="@color/primary" />
+
+        <!-- Botão direita (ex: tema) -->
+        <ImageView
+            android:id="@+id/btnTheme"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/light_mode_btn"
+            android:tint="@color/primary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginEnd="8dp"/>
+
+        <!-- Título centralizado -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="A Bússola Perdida"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="@color/text_dark"
+            android:gravity="center"
+
+            app:layout_constraintStart_toEndOf="@id/btnBack"
+            app:layout_constraintEnd_toStartOf="@id/btnTheme"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/text_dark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/montserrat_light"
+        android:text="Eleset sobe, iorial minc, tgritvin am gfigo gphi, au quinafi ingo entuta ofliafs a-jaaljrii kassal du dhgdo agasan jiti data usdg ing ufigst, lastji tyd naemati bljoho cqndo postn carafierat pomjtiy gab osdm sabe finvor ibada ag parger eu arien lnito dode lsqm dng bestient..."
+        android:textColor="@color/text_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:text="2"
+        android:textColor="@color/text_dark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_light"
+        android:text="am gfigo gp, i, au quinafi ingo entuta ofliafs a-jaljrii kassal du dhgdo agasam iti data usdg ing ufigst, lastji tyco aemati bljoho cqndo postn carafierat pomjtiy gab osdm saba finvor ibada ag parger eu arem nito dode lsqm dng bestient..."
+        android:textColor="@color/text_dark"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnNextReading"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/primary"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Próxima página"
+        android:textAllCaps="false"
+        android:textColor="@color/white" /></LinearLayout></ScrollView>

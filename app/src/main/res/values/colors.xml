@@ -1,0 +1,18 @@
+<resources>
+    <color name="primary">#004AF9</color>
+    <color name="primary_dark">#0037BB</color>
+    <color name="primary_soft">#EAF1FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bg_light">#F7F9FC</color>
+    <color name="gray_light">#D9E1F0</color>
+    <color name="gray_medium">#7A8599</color>
+    <color name="text_dark">#1B2230</color>
+    <color name="salmon_link">#E2969C</color>
+    <color name="error_orange">#D96B4C</color>
+    <color name="error_text">#8F3D2E</color>
+    <color name="chat_gray">#E9EDF5</color>
+    <color name="header_dark">#4A4D57</color>
+    <color name="online_green">#4BC26B</color>
+    <color name="admin_primary">#103A71</color>
+    <color name="admin_bg">#F5F7FB</color>
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp">
+
+            <!-- Botão voltar -->
+            <ImageView
+                android:id="@+id/btnBackDetails8"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:src="@drawable/back_btn"
+                app:tint="@color/primary" />
+
+        <!-- Logo -->
+
+        <!-- Título -->
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="76dp"
+                android:layout_marginBottom="2dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Detalhes do Livro"
+                android:textColor="@color/text_dark"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/btnBackDetails8"
+                app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:layout_width="120dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:background="@color/primary_soft" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Título"
+        android:textColor="@color/text_dark"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtTituloDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_light"
+            android:text="A Bússola Perdida"
+            android:textColor="@color/text_dark" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Autor"
+        android:textColor="@color/text_dark"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtAutorDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_light"
+            android:text="Clara Mendes"
+            android:textColor="@color/text_dark" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Sinopse"
+        android:textColor="@color/text_dark"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtSinopseDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_light"
+            android:text="Uma jovem exploradora embarca em uma jornada épica para encontrar o último artefato que pode restaurar a magia do mundo. Enfrentando perigos e segredos milenares, ela descobre que a verdadeira bússola está dentro dela mesma."
+            android:textColor="@color/text_dark" /><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginTop="20dp">
+
+    <Button
+        android:id="@+id/btnFavorite"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:backgroundTint="#014BF7"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Favoritar livro"
+        android:textAllCaps="false"
+        android:textColor="@color/bg_light" />
+
+    <Button
+        android:id="@+id/btnReviews"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#014BF7"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Avaliações"
+        android:textAllCaps="false"
+        android:textColor="@color/bg_light" />
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#014BF7"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Ler livro"
+        android:textAllCaps="false"
+        android:textColor="@color/bg_light" />
+
+    <Button
+        android:id="@+id/btnSimilar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#014BF7"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Semelhantes"
+        android:textAllCaps="false"
+        android:textColor="@color/bg_light" /></LinearLayout></LinearLayout></ScrollView>

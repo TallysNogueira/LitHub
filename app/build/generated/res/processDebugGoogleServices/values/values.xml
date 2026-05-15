@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">863705736728</string>
+    <string name="google_api_key" translatable="false">AIzaSyBt_Fk47lVkyI0_VNUtpShQu5nR-e6p0Ek</string>
+    <string name="google_app_id" translatable="false">1:863705736728:android:f8a035e2ed536422b3856d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBt_Fk47lVkyI0_VNUtpShQu5nR-e6p0Ek</string>
+    <string name="google_storage_bucket" translatable="false">lithub-d002c.firebasestorage.app</string>
+    <string name="project_id" translatable="false">lithub-d002c</string>
+</resources>
