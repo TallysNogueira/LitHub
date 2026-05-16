@@ -37,33 +37,11 @@ class CardGameListAdapter(val games: List<Game>): RecyclerView.Adapter<CardGameL
         holder.title.text = game.title
         holder.desc.text = game.desc
         holder.img.setImageResource(game.image)
+        holder.rule.text = game.rules
 
         val context = holder.itemView.context
 
 
-        val db = FirebaseFirestore.getInstance()
-
-        db.collection("jogos")
-            .whereEqualTo("titulo", game.title)
-            .get()
-            .addOnSuccessListener { documentos ->
-
-                for (documento in documentos) {
-
-                    val titulo = documento.getString("titulo")
-                    val desc = documento.getString("descricao")
-                    val regras = documento.getString("regras")
-
-                    holder.title.text = titulo
-                    holder.desc.text = desc
-                    holder.rule.text = regras
-
-                }
-            }
-
-            .addOnFailureListener {
-
-            }
 
 
 

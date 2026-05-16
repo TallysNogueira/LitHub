@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
@@ -48,6 +49,12 @@ class LoginActivity : AppCompatActivity() {
                             username.setBackgroundResource(R.drawable.rounded_shape_1)
                             password.setBackgroundResource(R.drawable.rounded_shape_1)
                             loginError.visibility = View.GONE
+
+                            val toastText = "Seja bem vindo"
+                            val duration = Toast.LENGTH_SHORT
+
+                            Toast.makeText(this, toastText, duration).show()
+
                             startActivity(Intent(this, HomeActivity::class.java))
 
                         }
