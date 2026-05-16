@@ -9,31 +9,31 @@
         android:theme="@style/Theme.LitHub">
 
         <activity
-            android:name=".AdminGameDetailActivity"
+            android:name=".admin.AdminGameDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".BooksActivity"
+            android:name=".student.BooksActivity"
             android:exported="false" />
         <activity
-            android:name=".GamesActivity"
+            android:name=".student.GamesActivity"
             android:exported="false"
             android:theme="@style/Theme.LitHub" />
-        <activity android:name=".NotificationsActivity" />
-        <activity android:name=".ChatConversationActivity" />
-        <activity android:name=".ChatHistoryActivity" />
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".BookEndChapterActivity" />
-        <activity android:name=".BookReadingActivity" />
-        <activity android:name=".BookChaptersActivity" />
-        <activity android:name=".BookSimilarActivity" />
-        <activity android:name=".BookReviewsActivity" />
-        <activity android:name=".BookDetailsActivity" />
-        <activity android:name=".ProfilePhotoActivity" />
-        <activity android:name=".MyBooksActivity" />
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".RecoverPasswordActivity" />
+        <activity android:name=".student.NotificationsActivity" />
+        <activity android:name=".student.ChatConversationActivity" />
+        <activity android:name=".student.ChatHistoryActivity" />
+        <activity android:name=".student.HomeActivity" />
+        <activity android:name=".student.BookEndChapterActivity" />
+        <activity android:name=".student.BookReadingActivity" />
+        <activity android:name=".student.BookChaptersActivity" />
+        <activity android:name=".student.BookSimilarActivity" />
+        <activity android:name=".student.BookReviewsActivity" />
+        <activity android:name=".student.BookDetailsActivity" />
+        <activity android:name=".student.ProfilePhotoActivity" />
+        <activity android:name=".student.MyBooksActivity" />
+        <activity android:name=".student.ProfileActivity" />
+        <activity android:name=".student.RecoverPasswordActivity" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".student.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,13 +46,13 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".AdminHomeActivity" />
-        <activity android:name=".AdminStudentsActivity" />
-        <activity android:name=".AdminStudentProfileActivity" />
-        <activity android:name=".AdminReadBooksActivity" />
-        <activity android:name=".AdminBookDetailActivity" />
-        <activity android:name=".AdminRequestActivity" />
-        <activity android:name=".AdminRecordsActivity" />
+        <activity android:name=".admin.AdminHomeActivity" />
+        <activity android:name=".admin.AdminStudentsActivity" />
+        <activity android:name=".admin.AdminStudentProfileActivity" />
+        <activity android:name=".admin.AdminReadBooksActivity" />
+        <activity android:name=".admin.AdminBookDetailActivity" />
+        <activity android:name=".admin.AdminRequestActivity" />
+        <activity android:name=".admin.AdminRecordsActivity" />
     </application>
 
 </manifest>

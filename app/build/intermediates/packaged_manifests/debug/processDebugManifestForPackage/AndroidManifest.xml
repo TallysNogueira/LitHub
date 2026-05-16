@@ -28,31 +28,31 @@
         android:testOnly="true"
         android:theme="@style/Theme.LitHub" >
         <activity
-            android:name="com.lithub.app.AdminGameDetailActivity"
+            android:name="com.lithub.app.admin.AdminGameDetailActivity"
             android:exported="false" />
         <activity
-            android:name="com.lithub.app.BooksActivity"
+            android:name="com.lithub.app.student.BooksActivity"
             android:exported="false" />
         <activity
-            android:name="com.lithub.app.GamesActivity"
+            android:name="com.lithub.app.student.GamesActivity"
             android:exported="false"
             android:theme="@style/Theme.LitHub" />
-        <activity android:name="com.lithub.app.NotificationsActivity" />
-        <activity android:name="com.lithub.app.ChatConversationActivity" />
-        <activity android:name="com.lithub.app.ChatHistoryActivity" />
-        <activity android:name="com.lithub.app.HomeActivity" />
-        <activity android:name="com.lithub.app.BookEndChapterActivity" />
-        <activity android:name="com.lithub.app.BookReadingActivity" />
-        <activity android:name="com.lithub.app.BookChaptersActivity" />
-        <activity android:name="com.lithub.app.BookSimilarActivity" />
-        <activity android:name="com.lithub.app.BookReviewsActivity" />
-        <activity android:name="com.lithub.app.BookDetailsActivity" />
-        <activity android:name="com.lithub.app.ProfilePhotoActivity" />
-        <activity android:name="com.lithub.app.MyBooksActivity" />
-        <activity android:name="com.lithub.app.ProfileActivity" />
-        <activity android:name="com.lithub.app.RecoverPasswordActivity" />
+        <activity android:name="com.lithub.app.student.NotificationsActivity" />
+        <activity android:name="com.lithub.app.student.ChatConversationActivity" />
+        <activity android:name="com.lithub.app.student.ChatHistoryActivity" />
+        <activity android:name="com.lithub.app.student.HomeActivity" />
+        <activity android:name="com.lithub.app.student.BookEndChapterActivity" />
+        <activity android:name="com.lithub.app.student.BookReadingActivity" />
+        <activity android:name="com.lithub.app.student.BookChaptersActivity" />
+        <activity android:name="com.lithub.app.student.BookSimilarActivity" />
+        <activity android:name="com.lithub.app.student.BookReviewsActivity" />
+        <activity android:name="com.lithub.app.student.BookDetailsActivity" />
+        <activity android:name="com.lithub.app.student.ProfilePhotoActivity" />
+        <activity android:name="com.lithub.app.student.MyBooksActivity" />
+        <activity android:name="com.lithub.app.student.ProfileActivity" />
+        <activity android:name="com.lithub.app.student.RecoverPasswordActivity" />
         <activity
-            android:name="com.lithub.app.LoginActivity"
+            android:name="com.lithub.app.student.LoginActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -65,13 +65,13 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name="com.lithub.app.AdminHomeActivity" />
-        <activity android:name="com.lithub.app.AdminStudentsActivity" />
-        <activity android:name="com.lithub.app.AdminStudentProfileActivity" />
-        <activity android:name="com.lithub.app.AdminReadBooksActivity" />
-        <activity android:name="com.lithub.app.AdminBookDetailActivity" />
-        <activity android:name="com.lithub.app.AdminRequestActivity" />
-        <activity android:name="com.lithub.app.AdminRecordsActivity" />
+        <activity android:name="com.lithub.app.admin.AdminHomeActivity" />
+        <activity android:name="com.lithub.app.admin.AdminStudentsActivity" />
+        <activity android:name="com.lithub.app.admin.AdminStudentProfileActivity" />
+        <activity android:name="com.lithub.app.admin.AdminReadBooksActivity" />
+        <activity android:name="com.lithub.app.admin.AdminBookDetailActivity" />
+        <activity android:name="com.lithub.app.admin.AdminRequestActivity" />
+        <activity android:name="com.lithub.app.admin.AdminRecordsActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"

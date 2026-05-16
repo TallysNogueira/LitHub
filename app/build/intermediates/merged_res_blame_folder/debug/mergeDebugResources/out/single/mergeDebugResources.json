@@ -88,10 +88,6 @@
         "source": "/home/wired/.gradle/daemon/9.3.1/com.lithub.app-main-55:/layout/item_book.xml"
     },
     {
-        "merged": "com.lithub.app-debug-53:/layout_item_cardgame.xml.flat",
-        "source": "com.lithub.app-main-55:/layout/item_cardgame.xml"
-    },
-    {
         "merged": "/home/wired/.gradle/daemon/9.3.1/com.lithub.app-debug-53:/layout_activity_admin_game_detail.xml.flat",
         "source": "/home/wired/.gradle/daemon/9.3.1/com.lithub.app-main-55:/layout/activity_admin_game_detail.xml"
     },
@@ -266,5 +262,9 @@
     {
         "merged": "/home/wired/.gradle/daemon/9.3.1/com.lithub.app-debug-53:/layout_activity_admin_read_books.xml.flat",
         "source": "/home/wired/.gradle/daemon/9.3.1/com.lithub.app-main-55:/layout/activity_admin_read_books.xml"
+    },
+    {
+        "merged": "com.lithub.app-debug-53:/layout_activity_games.xml.flat",
+        "source": "com.lithub.app-main-55:/layout/activity_games.xml"
     }
 ]

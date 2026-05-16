@@ -46,70 +46,70 @@
 29-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:9:9-44
 30        <activity
 30-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:11:9-13:40
-31            android:name="com.lithub.app.AdminGameDetailActivity"
-31-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:12:13-52
+31            android:name="com.lithub.app.admin.AdminGameDetailActivity"
+31-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:12:13-58
 32            android:exported="false" />
 32-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:13:13-37
 33        <activity
 33-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:14:9-16:40
-34            android:name="com.lithub.app.BooksActivity"
-34-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:15:13-42
+34            android:name="com.lithub.app.student.BooksActivity"
+34-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:15:13-50
 35            android:exported="false" />
 35-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:16:13-37
 36        <activity
 36-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:17:9-20:51
-37            android:name="com.lithub.app.GamesActivity"
-37-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:18:13-42
+37            android:name="com.lithub.app.student.GamesActivity"
+37-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:18:13-50
 38            android:exported="false"
 38-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:19:13-37
 39            android:theme="@style/Theme.LitHub" />
 39-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:20:13-48
-40        <activity android:name="com.lithub.app.NotificationsActivity" />
-40-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:21:9-59
-40-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:21:19-56
-41        <activity android:name="com.lithub.app.ChatConversationActivity" />
-41-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:22:9-62
-41-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:22:19-59
-42        <activity android:name="com.lithub.app.ChatHistoryActivity" />
-42-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:23:9-57
-42-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:23:19-54
-43        <activity android:name="com.lithub.app.HomeActivity" />
-43-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:24:9-50
-43-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:24:19-47
-44        <activity android:name="com.lithub.app.BookEndChapterActivity" />
-44-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:25:9-60
-44-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:25:19-57
-45        <activity android:name="com.lithub.app.BookReadingActivity" />
-45-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:26:9-57
-45-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:26:19-54
-46        <activity android:name="com.lithub.app.BookChaptersActivity" />
-46-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:27:9-58
-46-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:27:19-55
-47        <activity android:name="com.lithub.app.BookSimilarActivity" />
-47-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:28:9-57
-47-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:28:19-54
-48        <activity android:name="com.lithub.app.BookReviewsActivity" />
-48-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:29:9-57
-48-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:29:19-54
-49        <activity android:name="com.lithub.app.BookDetailsActivity" />
-49-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:30:9-57
-49-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:30:19-54
-50        <activity android:name="com.lithub.app.ProfilePhotoActivity" />
-50-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:31:9-58
-50-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:31:19-55
-51        <activity android:name="com.lithub.app.MyBooksActivity" />
-51-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:32:9-53
-51-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:32:19-50
-52        <activity android:name="com.lithub.app.ProfileActivity" />
-52-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:33:9-53
-52-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:33:19-50
-53        <activity android:name="com.lithub.app.RecoverPasswordActivity" />
-53-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:34:9-61
-53-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:34:19-58
+40        <activity android:name="com.lithub.app.student.NotificationsActivity" />
+40-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:21:9-67
+40-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:21:19-64
+41        <activity android:name="com.lithub.app.student.ChatConversationActivity" />
+41-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:22:9-70
+41-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:22:19-67
+42        <activity android:name="com.lithub.app.student.ChatHistoryActivity" />
+42-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:23:9-65
+42-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:23:19-62
+43        <activity android:name="com.lithub.app.student.HomeActivity" />
+43-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:24:9-58
+43-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:24:19-55
+44        <activity android:name="com.lithub.app.student.BookEndChapterActivity" />
+44-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:25:9-68
+44-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:25:19-65
+45        <activity android:name="com.lithub.app.student.BookReadingActivity" />
+45-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:26:9-65
+45-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:26:19-62
+46        <activity android:name="com.lithub.app.student.BookChaptersActivity" />
+46-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:27:9-66
+46-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:27:19-63
+47        <activity android:name="com.lithub.app.student.BookSimilarActivity" />
+47-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:28:9-65
+47-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:28:19-62
+48        <activity android:name="com.lithub.app.student.BookReviewsActivity" />
+48-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:29:9-65
+48-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:29:19-62
+49        <activity android:name="com.lithub.app.student.BookDetailsActivity" />
+49-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:30:9-65
+49-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:30:19-62
+50        <activity android:name="com.lithub.app.student.ProfilePhotoActivity" />
+50-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:31:9-66
+50-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:31:19-63
+51        <activity android:name="com.lithub.app.student.MyBooksActivity" />
+51-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:32:9-61
+51-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:32:19-58
+52        <activity android:name="com.lithub.app.student.ProfileActivity" />
+52-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:33:9-61
+52-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:33:19-58
+53        <activity android:name="com.lithub.app.student.RecoverPasswordActivity" />
+53-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:34:9-69
+53-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:34:19-66
 54        <activity
 54-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:35:9-43:20
-55            android:name="com.lithub.app.LoginActivity"
-55-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:36:13-42
+55            android:name="com.lithub.app.student.LoginActivity"
+55-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:36:13-50
 56            android:exported="true" >
 56-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:37:13-36
 57            <intent-filter>
@@ -131,27 +131,27 @@
 66            android:resource="@array/preloaded_fonts" />
 66-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:47:13-54
 67
-68        <activity android:name="com.lithub.app.AdminHomeActivity" />
-68-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:49:9-55
-68-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:49:19-52
-69        <activity android:name="com.lithub.app.AdminStudentsActivity" />
-69-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:50:9-59
-69-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:50:19-56
-70        <activity android:name="com.lithub.app.AdminStudentProfileActivity" />
-70-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:51:9-65
-70-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:51:19-62
-71        <activity android:name="com.lithub.app.AdminReadBooksActivity" />
-71-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:52:9-60
-71-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:52:19-57
-72        <activity android:name="com.lithub.app.AdminBookDetailActivity" />
-72-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:53:9-61
-72-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:53:19-58
-73        <activity android:name="com.lithub.app.AdminRequestActivity" />
-73-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:54:9-58
-73-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:54:19-55
-74        <activity android:name="com.lithub.app.AdminRecordsActivity" />
-74-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:55:9-58
-74-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:55:19-55
+68        <activity android:name="com.lithub.app.admin.AdminHomeActivity" />
+68-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:49:9-61
+68-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:49:19-58
+69        <activity android:name="com.lithub.app.admin.AdminStudentsActivity" />
+69-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:50:9-65
+69-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:50:19-62
+70        <activity android:name="com.lithub.app.admin.AdminStudentProfileActivity" />
+70-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:51:9-71
+70-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:51:19-68
+71        <activity android:name="com.lithub.app.admin.AdminReadBooksActivity" />
+71-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:52:9-66
+71-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:52:19-63
+72        <activity android:name="com.lithub.app.admin.AdminBookDetailActivity" />
+72-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:53:9-67
+72-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:53:19-64
+73        <activity android:name="com.lithub.app.admin.AdminRequestActivity" />
+73-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:54:9-64
+73-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:54:19-61
+74        <activity android:name="com.lithub.app.admin.AdminRecordsActivity" />
+74-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:55:9-64
+74-->/home/wired/Downloads/Lithub 1.3/LitHub-master/app/src/main/AndroidManifest.xml:55:19-61
 75        <activity
 75-->[com.google.firebase:firebase-auth:22.3.1] /home/wired/.gradle/caches/9.3.1/transforms/99aea2be428666f4281e895694c224e2/transformed/firebase-auth-22.3.1/AndroidManifest.xml:29:9-46:20
 76            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
