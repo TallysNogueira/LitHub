@@ -154,7 +154,7 @@ class ProfilePhotoActivity : AppCompatActivity() {
                     finish()
                 }
                 R.id.nav_chat -> {
-                    startActivity(Intent(this, ChatHistoryActivity::class.java))
+                    startActivity(Intent(this, ChatbotActivity::class.java))
                     finish()
                 }
                 R.id.nav_notifications -> {
