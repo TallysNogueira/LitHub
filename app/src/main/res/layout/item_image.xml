@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="4dp">
+
+    <!-- Imagem do livro -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_medium"
+        android:contentDescription="@string/imagem_do_livro"
+        android:scaleType="centerCrop" />
+
+    <!-- Fundo escuro para melhorar a leitura do texto -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:background="#80000000" />
+
+    <!-- Nome do livro -->
+    <TextView
+        android:id="@+id/textTituloLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:padding="8dp"
+        android:text="Nome do Livro"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+</FrameLayout>

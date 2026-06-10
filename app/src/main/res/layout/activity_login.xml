@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F5F8"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="153dp"
+        android:layout_height="156dp"
+        app:srcCompat="@drawable/unifor_logo" />
+
+    <TextView
+        android:id="@+id/brand_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/montserrat_light"
+        android:text="@string/lit_hub"
+        android:textColor="#004AAD"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/montserrat_light"
+        android:text="@string/matr_cula"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/input_matricula"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/rounded_shape_1"
+        android:fontFamily="@font/montserrat_light"
+        android:hint="@string/inserir_matr_cula"
+        android:inputType="text"
+        android:paddingLeft="16dp"
+        android:textColor="#767A7E"
+        android:textColorHint="#767A7E" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/montserrat_light"
+        android:text="@string/senha"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/input_senha"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/rounded_shape_1"
+        android:fontFamily="@font/montserrat_light"
+        android:hint="@string/inserir_senha"
+        android:inputType="textPassword"
+        android:paddingLeft="16dp"
+        android:textColor="#767A7E"
+        android:textColorHint="#767A7E" />
+
+    <TextView
+        android:id="@+id/login_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/matr_cula_ou_senha_incorreta_tente_novamente"
+        android:textColor="#C10E30"
+        android:textSize="16sp"
+        android:visibility="gone"
+        app:emojiCompatEnabled="false" />
+
+    <TextView
+        android:id="@+id/btn_forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/esqueci_minha_senha"
+        android:textColor="#E41B1B"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#014BF7"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:cornerRadius="28dp" />
+
+</LinearLayout>

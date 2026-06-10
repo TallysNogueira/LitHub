@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F1F5F8">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- TOPO -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perfil"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_dark"
+                    android:fontFamily="@font/montserrat_bold"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- FOTO E NOME -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="24dp">
+
+                <ImageView
+                    android:id="@+id/btnPhoto"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/unifor_logo"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Carlos Mendes"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_dark"
+                    android:fontFamily="@font/montserrat_bold"/>
+
+            </LinearLayout>
+
+            <!-- APELIDO -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Apelido"
+                android:textStyle="bold"
+                android:textColor="@color/text_dark"
+                android:fontFamily="@font/montserrat_bold"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:id="@+id/nickname"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_input"
+                    android:padding="14dp"
+                    android:text="Cadu"
+                    android:textColor="@color/text_dark"
+                    android:fontFamily="@font/montserrat_light"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/btnEditNickname"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <ImageView
+                    android:id="@+id/btnEditNickname"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:padding="10dp"
+                    android:src="@drawable/pencil_btn"
+                    android:tint="@color/primary"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    app:layout_constraintTop_toTopOf="@id/nickname"
+                    app:layout_constraintBottom_toBottomOf="@id/nickname"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- MATRÍCULA -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Matrícula"
+                android:textStyle="bold"
+                android:textColor="@color/text_dark"
+                android:fontFamily="@font/montserrat_bold"/>
+
+            <TextView
+                android:id="@+id/matriculation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_input"
+                android:padding="14dp"
+                android:text="20231015"
+                android:textColor="@color/text_dark"
+                android:fontFamily="@font/montserrat_light"/>
+
+            <!-- DESCRIÇÃO -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Descrição (opcional)"
+                android:textStyle="bold"
+                android:textColor="@color/text_dark"
+                android:fontFamily="@font/montserrat_bold"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:id="@+id/desc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_input"
+                    android:padding="14dp"
+                    android:text="Olá! Sou aluno do 4º semestre de Engenharia. Adoro ler sobre filosofia e tecnologia."
+                    android:textColor="@color/text_dark"
+                    android:fontFamily="@font/montserrat_light"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/btnEditDesc"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <ImageView
+                    android:id="@+id/btnEditDesc"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:padding="10dp"
+                    android:src="@drawable/pencil_btn"
+                    android:tint="@color/primary"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    app:layout_constraintTop_toTopOf="@id/desc"
+                    app:layout_constraintBottom_toBottomOf="@id/desc"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- BOTÃO -->
+            <Button
+                android:id="@+id/btnOpenPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="28dp"
+                android:text="Foto de perfil"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_bold"
+                android:backgroundTint="#014BF7"/>
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#BD4A47"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Deslogar"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- BOTTOM NAVIGATION -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/menu_bottom"/>
+
+</LinearLayout>

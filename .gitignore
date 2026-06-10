@@ -1,0 +1,47 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the DEX VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated folders and build artifacts
+bin/
+gen/
+build/
+.gradle/
+captures/
+.externalNativeBuild/
+.cxx/
+output-metadata.json
+
+
+# Local configuration file (contains your local SDK paths, etc.)
+local.properties
+
+# Log and OS Files
+*.log
+.DS_Store
+Thumbs.db
+
+# Android Studio / IntelliJ IDEA files
+*.iml
+.idea/workspace.xml
+.idea/libraries/
+.idea/modules.xml
+.idea/caches/
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetDropDown.xml
+.idea/render.experimental.xml
+
+# Keystore files (Uncomment if you want to keep production keys local)
+*.jks
+*.keystore
+
+# Google Services config file (Uncomment if you want to keep API keys secret in public repos)
+google-services.json
